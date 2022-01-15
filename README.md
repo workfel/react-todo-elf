@@ -4,7 +4,7 @@ Create todo list using Elf state management library. (https://ngneat.github.io/e
 Elf is Built on top of Rxjs
 
 # Article 
-Description step by step on : https://dev.to/workfel/create-todo-list-app-with-elf-react-dc1-temp-slug-7851749
+Description step by step on : https://dev.to/workfel/create-todo-list-app-with-elf-react-240g
 
 
 
