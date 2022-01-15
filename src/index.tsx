@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import TodoContext from './infrastructure/todo.context.provider';
+import { TodoRepositoryElf } from './repository/todo.repository';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoContext.Provider value={{ repository: new TodoRepositoryElf() }}>
+      <App/>
+    </TodoContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
